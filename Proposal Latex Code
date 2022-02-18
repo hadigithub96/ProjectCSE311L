@@ -1,0 +1,183 @@
+\documentclass{article}
+\usepackage{graphicx}
+
+\title{table}
+\begin{document}
+\begin{titlepage}
+\begin{center}
+    % University Logo
+    \includegraphics[width=0.5\textwidth]{NSU.jpg}\\[0.50cm]
+    
+    % University Name
+    \textsc{\LARGE{North South University}}\\[0.50cm]
+    \textsc{Department of Electrical and Computer Engineering}\\[1.00cm]
+    \textsc{\LARGE{Project Title: PC Trouble Reporting System}}\\[0.50cm]
+    
+    \textsc{Course Code: CSE311L}\\[.15cm]
+    \textsc{Section: 09}\\[.15cm]
+    \textsc{Submitted to: Nazmul Alam Diptu}\\[1.00cm]
+    
+    \textsc{\LARGE{Team Members}}\\[.25cm]
+     \textsc{Sumaya Yasmin}\\[.15cm]
+    \textsc{2021374642}\\[.15cm]
+    \textsc{Hadi Uzzaman}\\[.15cm]
+    \textsc{2022206642}\\[.15cm]
+     \textsc{Kanij Fatema Joya}\\[.15cm]
+    \textsc{1931652642}\\[.5cm]
+    
+    \textsc{Date of Submission: 18 February, 2022}\\[.15cm]
+\end{center}
+\end{titlepage}
+
+\section{Introduction}
+North South University has a large number of Computer Lab rooms and Research Centre. This program is designed for lab students who use a computer in the lab or Research Centre. While using computers in the lab, sometimes students are facing multiple problems such as lacking important software, disabled monitors, disabled mouse, disabled keyboards, etc. As a result, they aren’t able to continue the lab work properly. For the authority, it is quite difficult to know where and which computer is facing problems both hardware and software. Manually it is difficult to inform these problems for students and also difficult for the authority to find the problems. To solve such issues, we plan to develop a PC trouble reporting system.As a result, authorities will know which computer they should replace or repair. They improve their lab facility.
+
+
+\section{Objective}
+• All the information is protected that's why the project ensures that a person cannot enter another profile.\\  
+• There are two options for students,  Previous problems give the opportunity to know a student's former problem and the new problem permits a student to add a new problem.\\
+• From the problem list, the moderator easily can see the list of problems of all students. \\         
+• By using the comment option, the moderator can easily give the updated information to the students.\\  
+• And also if anyone facing 'log in' problem then there is an option "Forget password" and  if a person does not need to go to the next page, he can easily go back through the exit option.
+
+
+\section{Project Information}
+The project has some sections. When a person enters this project, firstly the registration page is opened. This section is available for both students and moderators. So, they have to register first and give their personal information. All the information is protected and the project ensures that a person cannot enter another profile. When the registration problem is done, the project collects all the information and ask two questions for verification, drops it to the text file. Now if a student or moderator wants to use this project, they can easily log in to this project using their username and password.When a student or moderator logs in this project, one page is opened and there they find two options. The option is individual for both. For the students, one of the options is the previous problem and another is a new problem. Previous problems give the opportunity to know a student's former problem. In the new problem, the project permits a student to add a new problem Which he felt. On the other hand, when moderators log in this project two options are opened for him. One is a problem list and another is a comment. Through the problem list, the moderator can see the list of problems of all students. And using the comment option the moderator can easily give the updated information to the students which they complained about. The students can find this updated information in their previous problem section. Beside if anyone facing problem in log in, then there is an option "Forget password". If the information (2 questions) they set while registration, matched then their profile will be verified. The other option is available on all the pages. If a person does not need to go to the next page, he can easily go back through the exit option.
+
+\section{Target Customers}
+• Students/Researchers - Students who will use our service to complain for the multiple problems which they are facing. They will also get to know all the updated information about their problems.\\
+• Moderators - Moderators will be able to see and maintain all the complain which are given by the students or researchers. They will also be able to give the updated information to the students which they complained about using the comment option.
+
+
+\section{Value Proposition}
+This website will reduce the problems which are faced by the students in lab or research centre. It will also reduce the cost of keeping a manager to keep track of the information about the problems manually. Moderators will be notified for updating the problems by students which will reduce the chance of being late and hence saving the penalty money.
+
+
+\section{Web Application Feature and Description}
+1. MENU:
+When any person wants to access a PC trouble reporting system, he needs to complete some process. There are some features in this program, which will help a person to enter this program and allow him to update its information. At the beginning of the project the welcome frame opened.There are three buttons present.
+
+• Sign in
+
+• Sign up
+
+• Exit\\
+
+
+a) Sign in:
+From the menu when anyone clicks sign-in option a page is opened which is given below. There are three options.
+
+• Student
+
+• Moderator
+
+• Exit\\
+
+
+Student:
+If a student option is chosen, he needs to complete these options:
+
+• ID
+
+• Password
+
+• Forget Password\\
+
+Moderator:
+If the moderator option is chosen, he needs to complete these options:
+
+• Initial
+
+• Password
+
+• Forget password\\
+
+After successfully logging in as a student or moderator, two options will come up:
+
+• Complain
+
+• Comment\\
+
+Complain:
+
+When a student logs in this project, a frame is opened which is given below. There are three options.
+
+• Previous problem
+
+• New problem
+
+• Exit\\
+
+Comment:
+
+This section also has three options.
+
+• Problem list
+
+• Comment
+
+• Exit\\
+
+b) Sign up:
+From the menu when anyone clicks the sign-up option a page is opened which is given below. There are three options:
+
+• Student
+
+• Moderator
+
+• Exit\\
+
+Student:
+If a student option is chosen, he needs to complete these options:
+
+• First name
+
+• Last name
+
+• Email
+
+• ID
+
+• Password
+
+• Verification\\
+
+Moderator:
+If the moderator option is chosen, he needs to complete these options:
+
+• First name
+
+• Last name
+
+• Email
+
+• ID
+
+• Password
+
+• Verification\\
+
+c) Exit:
+When anybody wants, he cannot complete the registration form, the project permits 
+him to go back to this section by using the exit button.
+
+\section{Tools and Resources}\
+
+• HTML
+
+• CSS
+
+• JavaScript
+
+• MySQL
+
+• PHP
+
+• Web Server
+
+• API for SMS
+
+\section{Challenge}
+One of the biggest challenge will be the cost. As there will be a huge data and SMS for alert, there may be a chance of high cost maintenance. But we are not sure that if it is going to happen or not. Because in our service, we can see that there is high chance to reduce our cost. Second challenge will be the verification of data. We will need to check if the data or information entered are reliable or not. Lastly, using our service, authorities can know which computer they should replace or repair for improve their lab facility which will be difficult to crack.
+
+\end{document}
